@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>workshop</title>
+</head>
+
+<body>
+    <!-- <div class="navbar">
+        <div class="nav-bar">
+            <ul class="bar">
+                <li>home</li>
+                <li>download</li>
+                <li>import</li>
+
+            </ul>
+        </div> -->
+    <!-- formulaire -->
+    <div class="form">
+
+        <h1>details personnels</h1>
+
+        <div class="col-1">
+            <div class="ph">
+            <label for="photo">photo</label><br>
+            <input type="file" id="photo" name="photo">
+            </div>
+            <div class="row">
+                <div class="nom">
+                    <div>
+                        <label for="photo">prenom</label><br>
+                        <input type="text" id="prenom" name="prenom">
+                    </div>
+                    <div>
+                        <label for="photo">nom de famille</label><br>
+                        <input type="text" id="nom-d-f" name="nom de famille">
+                    </div>
+                </div>
+                <label for="photo">address email</label><br>
+                <input type="text" id="email" name="email">
+            </div>
+        </div>
+        <div class="col-2">
+            <label for="phone">numero de telephone</label><br>
+            <input type="text" id="phone" name="phone">
+        </div>
+        <div class="col-3">
+            <label for="addresse">address</label><br>
+            <input type="text" id="addresse" name="addresse">
+
+
+        </div>
+        <div class="col-4">
+            <div>
+                <label for="postale">code postale</label><br>
+                <input type="text" id="postale" name="postale">
+            </div>
+            <div>
+                <label for="ville" id="ville" name="ville">ville</label><br>
+                <input type="text" name="ville" id="vil2">
+            </div>
+        </div>
+        <div class="competance"></div>
+        <div class="experience">
+            <h2>experience</h2><br>
+            <div class="exp">
+
+                <div>
+                    <label for="poste">poste/travail</label><br>
+                    <input type="text" name="poste" id="poste">
+                </div>
+                <div>
+                    <label for="societe">nom de la societe</label><br>
+                    <input type="text" name="societe" id="societe">
+                </div>
+                <div>
+                    <label for="lieu-date">lieu-date</label><br>
+                    <input type="text" name="lieu-date" id="lieu-date">
+                </div>
+
+                <div class="des">
+                    <label for="description">description :</label><br>
+                    <input type="text" id="description">
+                </div>
+            </div>
+        </div>
+        <div class="formation">
+            <h2>formation</h2>
+            <div class="for">
+                <div class="for-1">
+                    <label for="n-etablissement">nom de letablissement</label><br>
+                    <input type="text" nom="n-etablissement" id="n-etablissement">
+                    <label for="lieu">lieu-date</label><br>
+                    <input type="text" id="lieu" name="lieu">
+                </div>
+                <div class="des">
+                    <label for="description du job">description du job </label><br>
+                    <input type="text" id="descriptionn" name="description">
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h2>projects</h2>
+            <div>
+                <label for="nom du project">nom du project</label><br>
+                <input type="text" id="nomdp" name="nom du project">
+                <label for="date">date</label><br>
+                <input type="date" id="dateproject" name="date">
+            </div>
+            <div class="des">
+                <label for="description">description</label><br>
+                <input type="text" id="descriptioneproject" name="description">
+            </div>
+        </div>
+        <div class="langues">
+            <h2 id="langues">langues</h2>
+            <div id="langueinput"></div>
+            <button   id="addlangue">added langue +</button>
+        </div>
+        <div class="btn">
+            <h2>add more</h2>
+            <div id="datnn"></div>
+            <div id="lieudnn"></div>
+            <div id="permiss"></div>
+            <div id="sexee"></div>
+            <div id="nationall"></div>
+            <div id="etatcivill"></div>
+            <div id="siteinternett"></div>
+            <div id="linkedinn"></div>
+
+            <div class="btn-1">
+
+                <div class="A">
+                    <button id="dtn">+ date de <br> naissance </button>
+                    <button id="ldn">+ lieu de naissance</button>
+                </div>
+                <br>
+                <div class="B">
+
+                    <button id="pdc">+ permis de conduire</button>
+                    <button id="gender">+ sexe</button>
+                    <button id="country">+ nationalite</button>
+                </div>
+                <br>
+                <div class="C">
+                    <button id="situation">+ etat civil</button>
+                    <button id="si">+ site internet</button>
+                    <button id="link">+ linkedin</button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+    <!-- viewer cv -->
+    <div class="view">
+        <div class="container">
+            <div class="nav">curriculum vitae</div>
+            <div id="n-p" class="title">
+                <span id="nom"></span>
+                <span id="pren"></span>
+            </div>
+            <div class="row-2">
+                <div class="img-2"><img src="img-1" alt="photo"></div>
+                <div class="d-2">details personnels </div>
+                <hr>
+                <div id="n-p-2" class="title">
+                    <span id="nom-2"></span>
+                    <span id="pren-2"></span>
+                </div>
+                <div id="emails"></div>
+                <hr>
+                <div id="phone1"></div>
+                <span>addresse:</span>
+                <div id="addres"></div>
+                <div class="c-p-v">
+                    <div class="p-c">
+                        <span>postal code</span>
+                        <div id="c-p"></div>
+                    </div>
+                    <div class="vil">
+                        <span>ville</span>
+                        <div id="v"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="experience2">
+                <hr>
+                <span>EXPERIENCE</span>
+                <hr>
+                <div class="exp2">
+                    <div id="pt">
+                        <span>poste de travaille:</span>
+                        <div id="p-t"></div>
+                        <span>nom de la societe:</span>
+                        <div id="n-s"></div>
+                        <span>lieu et date </span>
+                        <div id="l-d"></div>
+                    </div>
+                    <span>description:</span>
+                    <div id="desc"></div>
+
+                </div>
+            </div>
+            <div class="formation2">
+                <hr>
+                <span>formation</span>
+                <hr>
+                <div class="for">
+                    <span>nom de letablissement</span>
+                    <div id="netab"></div>
+                    <span>lieu et date</span>
+                    <div id="l-d-2"></div>
+                </div>
+                <span>description</span>
+                <div id="descr"></div>
+
+
+            </div>
+            <div class="project">
+                <hr>
+                <span>projects</span>
+                <hr>
+                <div class="pro">
+                    <span>nom du project</span>
+                    <div id="np"></div>
+                    <span>date</span>
+                    <div id="datep"></div>
+                </div>
+                <span>description</span>
+                <div id="descrp"></div>
+            </div>
+
+        </div>
+        <div class="langueview">
+            <div id="langview"></div>
+        </div>
+        <div class="more">
+            <div id="datnv"></div>
+            <div id="lieudnv"></div>
+            <div id="permisv"></div>
+            <div id="sexev"></div>
+            <div id="nationalv"></div>
+            <div id="etatcivilv"></div>
+            <div id="siteinternetv"></div>
+            <div id="linkedinv"></div>
+        </div>
+    </div>
+
+
+        <script src="script.js">
+
+
+        </script>
+</body>
+
+</html>
