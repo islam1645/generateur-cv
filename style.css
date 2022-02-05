@@ -1,0 +1,170 @@
+:root{
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  padding: 20px;
+}
+h2 {
+  padding: 10px;
+  text-transform: uppercase;
+}
+input {
+  border-radius: 12px;
+  border-color: transparent;
+  background: rgb(243, 241, 241);
+  width: 100%;
+}
+input:focus {
+  border: 3px solid #555;
+  border-radius: 12px;
+}
+body {
+  display: flex;
+}
+.view {
+  background-color: rgb(235, 231, 227);
+}
+
+.col-1 {
+  display: flex;
+  padding: 10px;
+}
+.ph {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  padding: 10px;
+}
+.nom {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.col-2,
+.col-3,
+.col-4 {
+  padding: 10px;
+}
+.experience {
+  padding: 10px;
+}
+.exp {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.des {
+  padding: 10px;
+  text-align: start;
+}
+.des input {
+  height: 100px;
+  width: 50%;
+}
+.formation {
+  padding: 10px;
+}
+.projects {
+  padding: 10px;
+}
+.langues {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+}
+#email {
+  width: 400px;
+}
+.col-4 {
+  display: flex;
+  justify-content: space-between;
+}
+.for-1 {
+  display: flex;
+
+  flex-direction: column;
+}
+.btn-1 {
+  height: 50px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.form {
+  border-right: thick double #555;
+  
+}
+.form ::-webkit-scrollbar-corner {
+  width: 12px;
+}
+.form::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.form::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.form::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.row-2 {
+  padding: 10px;
+  background-color: rgb(239, 245, 245);
+  width: 500px;
+}
+.img-2 {
+  align-items: center;
+  padding-bottom: 10px;
+}
+.d-2 {
+  align-items: center;
+  padding-bottom: 10px;
+  color: blue;
+}
+.nav {
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  font-size: 40px;
+  color: azure;
+  border-radius: 12px 12px 0 0;
+}
+#n-p-2 {
+  padding: 10px;
+}
+.view {
+  width: 50%;
+}
+.container {
+  padding: 10px;
+  background: azure;
+}
+span {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+/* navbar */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.bar{
+  display: flex;
+  
+} */
+
